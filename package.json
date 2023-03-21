@@ -1,0 +1,30 @@
+{
+  "name": "doxy-me-ts-decorators-ioc-example",
+  "description": "Doxy.me - Coding Test - IoC with Typescript Decorators",
+  "version": "0.1.0",
+  "private": true,
+  "author": "alvaro@basallo.es",
+  "scripts": {
+    "lint": "eslint . --fix --ext .ts",
+    "start": "tsc && node build/index.js",
+    "debug": "tsc && node --inspect-brk build/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.52.0",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "ts-loader": "^9.4.2"
+  }
+}
